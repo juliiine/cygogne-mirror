@@ -1,5 +1,9 @@
 # Cygogne Gentoo Mirror
 
+Available languages :
+
+[français](https://github.com/juliiine/cygogne-mirror/blob/main/README_FR.md)
+
 This repo describes how to set my mirror in your Gentoo system, and also show how to create a mirror.
 Specifics things to know about my mirror : 
 
