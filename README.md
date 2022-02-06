@@ -17,7 +17,7 @@ Specifics things to know about my mirror :
  Please don't hesitate to tell me if you use my mirror, so I can improve it if there is more and more users.
  You can also contribute to modify the `readme.md` file, translate it or make me any feedback and suggestions.
 
-## Set Cygogne-IT to default mirror for portage
+## Set Cygogne to default mirror for Portage
 
 It's pretty simple because you only need to edit one file. 
 Take your favorite editor and edit the `make.conf` located in `/etc/portage/` :
@@ -30,7 +30,7 @@ Otherwise it must be added, the placement does not matter but it must be placed 
 ```
 GENTOO_MIRRORS="something"
 ```
-After you have the line required, you can change the value to the `GENTOO_MIRRORS` variable :
+After you have the line required, you can change the value of the `GENTOO_MIRRORS` variable :
 Change `something` to `https://cygogne-it.fr` and you should have this :
 ```
 GENTOO_MIRRORS="https://cygogne-it.fr"
@@ -52,7 +52,7 @@ If you still want to continue even this warning ...
 
 - Bandwith : You need to have a minimum of 5 MBit/s upstream capacity on a permanent connection, higher is better.
 - Storage : Hosting a mirror requires a minimum of 550 GiB available disk space.
-- HTTP and/or HTTPS access to the site. 
+- HTTP and/or HTTPS access to the site. RSYNC is also supported.
 - I assume that you already have a web server in place.
 - The Gentoo team recommends to sync from master every four hours.
 - `rsync`
