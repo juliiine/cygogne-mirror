@@ -1,5 +1,10 @@
 # Miroir Gentoo Cygogne
 
+Langues disponibles : 
+
+[Français](https://github.com/juliiine/cygogne-mirror/blob/main/README_FR.md)
+[English](https://github.com/juliiine/cygogne-mirror/blob/main/README.md)
+
 Ce guide décrit comment utiliser mon miroir sur votre système Gentoo, et vous explique aussi comment en créer un.
 Caractéristiques principales de mon miroir: 
 
