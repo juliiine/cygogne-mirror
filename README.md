@@ -30,27 +30,27 @@ Otherwise it must be added, the placement does not matter but it must be placed 
 ```
 GENTOO_MIRRORS="something"
 ```
-After you have the line required, you can change the value to the `GENTOO_MIRRORS` variable :
+After you have the line required, you can change the value of the `GENTOO_MIRRORS` variable :
 Change `something` to `https://cygogne-it.fr` and you should have this :
 ```
 GENTOO_MIRRORS="https://cygogne-it.fr"
 ```
 Save your `make.conf` file and exit.
 
-The mirror is now set to here, and will be used for any download from portage now.
+The mirror is now set, and will be used for any download from portage now.
 You can run `eix-sync` (if you have `eix` installed) or `emerge --sync` to refresh packages.
 
 If you want to set your own mirror, please read below.
 
 ## Set up your own mirror
 
-Please keep in mind that kind of "personnal mirrors" uses bandwith from Tier 1 mirror, and I don't encourage anyone to set a mirror like this one for the fun, or only for your usage. If there is not a lot of Gentoo mirrors in your area, there is no problem to create one, and it's recommended to submit your mirror to the Gentoo team. 
+Please keep in mind that these kind of "personnal mirrors" use bandwith from Tier 1 mirror, and I don't encourage anyone to set a mirror like this one just for fun, or only for your personal usage. If there is not a lot of Gentoo mirrors in your area, there is no problem to create one, and it's recommended to submit your mirror to the Gentoo team. 
 
-If you still want to continue even this warning ...
+If you still want to continue even after this warning ...
 
 ### Requirements
 
-- Bandwith : You need to have a minimum of 5 MBit/s upstream capacity on a permanent connection, higher is better.
+- Bandwith : You need to have a minimum of 5 MBit/s upstream capacity on a permanent connection, the higher, the better.
 - Storage : Hosting a mirror requires a minimum of 550 GiB available disk space.
 - HTTP and/or HTTPS access to the site. 
 - I assume that you already have a web server in place.
@@ -58,14 +58,14 @@ If you still want to continue even this warning ...
 - `rsync`
 - `cron` or any task scheduler.
 - A Gentoo system to test your mirror.
-- A loooot of time (depends of your connection)
+- A loooot of time (depends on your connection)
 
 ### Initial fetch
 
-This part is maybe the hardest and takes a lot of time.
-Please choose a location where the mirror will be stocked. 
+This part may be the hardest and takes a lot of time.
+Please choose a location where the mirror will be stored. 
 Often, it's `/var/www/` or `/var/www/html/` with an `apache` setup.
-In my case, I've choosed `/var/www/html/gentoo/`.
+In my case, I've chosen `/var/www/html/gentoo/`.
 
 I also recommend to create a `VirtualHost` to redirect to my Gentoo directory.
 It's useful when you have multiple website already installed on your server.
@@ -78,15 +78,15 @@ To fetch from Gentoo Master Mirror to your desired directory :
 ```
 rsync -av rsync://masterdistfiles.gentoo.org/gentoo/ /var/www/html/gentoo/
 ```
-Change `/var/www/html/gentoo/` to the location you have already choosed.
+Change `/var/www/html/gentoo/` to the location that you have chosen.
 The `-v` argument can be skipped if you don't want verbose mode.
 
 After this huge download, your mirror can be now set in `make.conf` file (see previous chapter).
-Be careful, if you stop right here, your mirror will be never updated.
+Be careful, if you stop right here, your mirror will never be updated.
 
 ### Cron setup to refresh your mirror
 
-The instruction below is for [`cron`](https://github.com/cronie-crond/cronie) usage, please refer to the manual if tou use an another tool.
+The instruction below is for [`cron`](https://github.com/cronie-crond/cronie) usage, please refer to the manual if you use an another tool.
 
 Create a new task in crontab :
 ```
@@ -96,7 +96,7 @@ To refresh every 4 hours :
 ```
 00 */4 * * * rsync -av rsync://masterdistfiles.gentoo.org/gentoo/ /var/www/html/gentoo/
 ```
-You change change `4` to what you want (ex : `1` to refresh every hour).
+You can change `4` to whatever you want (ex : `1` to refresh every hour).
 
 Everything should be working now.
 
@@ -123,7 +123,7 @@ to have in cron :
 ```
 00 */4 * * * /home/juliiine/rsync_mirror.sh
 ```
-#### Send a mail every time refresh is terminated :
+#### Send a mail every time a refresh is completed :
 
 For this, you can use a `postfix` server, but honestly there is moooore simple.
 I use [Swaks](https://github.com/jetmore/swaks), a perl-based tool to send simple mail in things like script.
