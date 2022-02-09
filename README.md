@@ -18,15 +18,14 @@ Specifics things to know about my server where is the mirrors :
 - No-log policies, I don't care what you download.
 - Uses Debian 11 💪🏻.
 - 100% French and Weeb powered (maybe not so cool).
-- ⚠ Arch mirror is not usable now ⚠
-
+- An Arch Mirror is now configured and usable !
 
  Please don't hesitate to tell me if you use my mirror, so I can improve it if there is more and more users.
  You can also contribute to modify the `readme.md` file, translate it or make me any feedback and suggestions.
 
 ## Mirrors currently available 
 
-[⚠ Arch ⚠](https://github.com/juliiine/cygogne-mirror/blob/main/Arch/README.md) | [Gentoo](https://github.com/juliiine/cygogne-mirror/blob/main/Gentoo/README.md)
+[Arch](https://github.com/juliiine/cygogne-mirror/blob/main/Arch/README.md) | [Gentoo](https://github.com/juliiine/cygogne-mirror/blob/main/Gentoo/README.md)
 
 ## Our contributors
 
