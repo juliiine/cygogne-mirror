@@ -17,7 +17,8 @@ Specifics things to know about my server where is the mirrors :
 - HTTPS only (Rsync todo).
 - No-log policies, I don't care what you download.
 - Uses Debian 11.
-- 100% French and Weeb powered (maybe not so cool). 
+- 100% French and Weeb powered (maybe not so cool).
+- ⚠ Arch mirror still not usable ⚠
 
 
  Please don't hesitate to tell me if you use my mirror, so I can improve it if there is more and more users.
