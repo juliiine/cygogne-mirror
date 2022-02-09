@@ -8,11 +8,11 @@ Available languages :
 
 Current status of infrastructure :
 
-| Mirror      |Arch Linux| 
-|:-----------:|:-:| 
-|  Status     | Up | 
-| Last Sync   | Not available |  
-| Total Size  | 211G |   
+| Mirror      |Arch Linux| Gentoo |
+|:-----------:|:-:|:-:|
+|  Status     | Up | Up |
+| Last Sync   | Not available | Not Available |
+| Total Size  | 211G | 483G |  
 
 This repo describes how to set my mirrors for Arch or Gentoo, and also show how to create a mirror for these.
 Specifics things to know about my server where is the mirrors : 
