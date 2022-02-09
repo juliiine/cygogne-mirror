@@ -144,3 +144,8 @@ swaks -t receiver@address.com -s ssl0.ovh.net:587 -tls -au gentoo@yourdomain.com
 
 N'hésitez-pas à faire des remarques, des propositions d'améliorations, ou de l'aide pour traduire le projet dans d'autres langues.
 Vous pouvez également m'informer si vous utilisez mon miroir, afin que je puisse l'améliorer en fonction.
+
+## Nos contributeurs
+
+- [Juline](https://github.com/juliiine) : Créatrice initiale du projet
+- [Ahraon](https://github.com/Ahraon) : Développeur et traducteur principal du projet 

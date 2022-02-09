@@ -143,3 +143,8 @@ swaks -t receiver@address.com -s ssl0.ovh.net:587 -tls -au gentoo@yourdomain.com
 
 Feel free to fill an issue if you have suggestions about this page, or if you want to translate it in other languages.
 I also like to know if you use this mirror as a daily driver to see how it can be improved.
+
+## Our contributors
+
+- [Juline](https://github.com/juliiine) : Creator and main maintainer of this project
+- [Ahraon](https://github.com/Ahraon) : Main dev and traductor of this project
