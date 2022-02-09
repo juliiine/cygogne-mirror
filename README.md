@@ -18,7 +18,7 @@ Specifics things to know about my server where is the mirrors :
 - No-log policies, I don't care what you download.
 - Uses Debian 11.
 - 100% French and Weeb powered (maybe not so cool).
-- ⚠ Arch mirror still not usable ⚠
+- ⚠ Arch mirror is not usable now ⚠
 
 
  Please don't hesitate to tell me if you use my mirror, so I can improve it if there is more and more users.
