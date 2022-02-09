@@ -100,7 +100,7 @@ Pour update toutes les 4 heures :
 ```
 00 */4 * * * rsync -av rsync://masterdistfiles.gentoo.org/gentoo/ /var/www/html/gentoo/
 ```
-VOus pouvez changer `4` en fonction de ce que vous voulez (ex : `1` pour toutes les heures).
+Vous pouvez changer `4` en fonction de ce que vous voulez (ex : `1` pour toutes les heures).
 
 Tout devrait être fonctionnel.
 
