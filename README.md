@@ -16,7 +16,7 @@ Specifics things to know about my server where is the mirrors :
 - Refresh every 4 hour for Gentoo and each hour for Arch.
 - HTTPS only (Rsync todo).
 - No-log policies, I don't care what you download.
-- Uses Debian 11.
+- Uses Debian 11 💪🏻.
 - 100% French and Weeb powered (maybe not so cool).
 - ⚠ Arch mirror is not usable now ⚠
 

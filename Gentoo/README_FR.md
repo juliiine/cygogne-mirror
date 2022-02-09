@@ -14,7 +14,7 @@ Caractéristiques principales de ce miroir:
 - Syncro toutes les heures piles depuis le serveur miroir maître Gentoo.
 - Accès via HTTPS.
 - Je ne détient aucun log, je m'en fout de ce que vous installez.
-- Tourne sous Debian 11.
+- Tourne sous Debian 11 💪🏻.
 - 100% Français et Weeb friendly (pas une si bonne nouvelle).
 
 

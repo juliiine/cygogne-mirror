@@ -16,7 +16,7 @@ Caractéristiques principales de l'infrastrcture gérant les miroirs :
 - Syncro toutes les 4 heures piles depuis le serveur miroir maître Gentoo, et toutes les heures pour Arch Linux.
 - Accès via HTTPS (Rsync sera bientôt disponible).
 - Je ne détient aucun log, je m'en fout de ce que vous installez.
-- Tourne sous Debian 11.
+- Tourne sous Debian 11 💪🏻.
 - 100% Français et Weeb friendly (pas une si bonne nouvelle).
 - ⚠ Le miroir Arch n'est pour l'instant pas fonctionnel ⚠.
 

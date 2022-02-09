@@ -14,7 +14,7 @@ Specifics things to know about this mirror :
 - Refresh every hour from Master Gentoo Mirror.
 - HTTPS only.
 - No-log policies, I don't care what you emerges.
-- Uses Debian 11.
+- Uses Debian 11 💪🏻.
 - 100% French and Weeb powered (maybe not so cool).
 
  Please don't hesitate to tell me if you use my mirror, so I can improve it if there is more and more users.
