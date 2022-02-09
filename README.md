@@ -1,11 +1,13 @@
-# Cygogne Gentoo Mirror
+# Juline Mirrors Infrastructure
+
+Name have changed ! Juline.tech is here !
 
 Available languages :
 
 [Français](https://github.com/juliiine/cygogne-mirror/blob/main/README_FR.md)
 [English](https://github.com/juliiine/cygogne-mirror/blob/main/README.md)
 
-This repo describes how to set my mirror for Arch or Gentoo, and also show how to create a mirror for these.
+This repo describes how to set my mirrors for Arch or Gentoo, and also show how to create a mirror for these.
 Specifics things to know about my server where is the mirrors : 
 
 - 1Gbits bandwith fiber edition.
@@ -15,10 +17,13 @@ Specifics things to know about my server where is the mirrors :
 - HTTPS only (Rsync todo).
 - No-log policies, I don't care what you download.
 - Uses Debian 11.
-- 100% French and Weeb powered (maybe not so cool).
-- Cygogne-it is not a cool name, I already know that (juline.tech asap). 
+- 100% French and Weeb powered (maybe not so cool). 
 
 
  Please don't hesitate to tell me if you use my mirror, so I can improve it if there is more and more users.
  You can also contribute to modify the `readme.md` file, translate it or make me any feedback and suggestions.
 
+## Mirrors currently available 
+
+[Arch](https://github.com/juliiine/cygogne-mirror/blob/main/Arch/README.md)
+[Gentoo](https://github.com/juliiine/cygogne-mirror/blob/main/Gentoo/README.md)
