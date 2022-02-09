@@ -75,7 +75,7 @@ Je vous recommande de créer un hôte virtuel `VirtualHost` pour rediriger les r
 C'est indispensable si vous souhaitez héberger d'autres sites sur un même serveur.
 Lisez le manuel de votre serveur web pour savoir comment l'on configure des `VirtualHost`.
 
-WUne fois que votre répertoire a été choisi et est accessible via le web, il est temps de télécharger TOUT le nécessaire depuis le serveur maître.
+Une fois que votre répertoire a été choisi et est accessible via le web, il est temps de télécharger TOUT le nécessaire depuis le serveur maître.
 Actuellement, tout cela pèse près de 480Go, donc soyez patients.
 
 Pour télécharger vers votre répertoire choisi, tapez la commande suivante :
@@ -129,7 +129,7 @@ Pour que dans cron on utilise que le script :
 ```
 #### Envoyer un mail à chaque update :
 
-POur cela, vous pouvez utiliser un serveur `postfix`, mais il y a plus simple.
+Pour cela, vous pouvez utiliser un serveur `postfix`, mais il y a plus simple.
 J'utilise [Swaks](https://github.com/jetmore/swaks), un outil utilisant Perl permettant l'envoi de mails, notamment dans des scripts.
 Vous avez besoin d'une vraie adresse mail et des informations SMTP de votre fournisseur mail.
 J'utilise une adresse OVH pour cet usage.
