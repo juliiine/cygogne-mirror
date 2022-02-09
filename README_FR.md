@@ -6,6 +6,13 @@ Available languages :
 
 [Français](https://github.com/juliiine/cygogne-mirror/blob/main/README_FR.md) | [English](https://github.com/juliiine/cygogne-mirror/blob/main/README.md)
 
+Statut actuel de l'infrastructure :
+
+| Miroir      |Arch Linux| Gentoo |
+|:-----------:|:-:|:-:|
+|  Statut     | En ligne | En ligne |
+| Dernière Synchro   | Non disponible | Non disponible |
+| Taille totale  | 211G | 483G |  
 
 Ce guide décrit comment utiliser mes miroirs sur votre système Gentoo ou Arch, et vous explique aussi comment en créer un.
 Caractéristiques principales de l'infrastrcture gérant les miroirs : 
