@@ -30,5 +30,5 @@ Specifics things to know about my server where is the mirrors :
 
 ## Our contributors
 
-- Juline : Creator and main maintainer of this project
-- Ahraon : Main dev and traductor of this project
+- [Juline](https://github.com/juliiine) : Creator and main maintainer of this project
+- [Ahraon](https://github.com/Ahraon) : Main dev and traductor of this project

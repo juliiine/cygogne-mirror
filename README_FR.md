@@ -29,5 +29,5 @@ Caractéristiques principales de l'infrastrcture gérant les miroirs :
 
 ## Nos contributeurs
 
-- Juline : Créatrice initiale du projet
+- [Juline](https://github.com/juliiine) : Créatrice initiale du projet
 - [Ahraon](https://github.com/Ahraon) : Développeur et traducteur principal du projet 
