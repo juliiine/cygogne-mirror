@@ -1,6 +1,6 @@
 # Juline Mirrors Infrastructure
 
-Name have changed ! Juline.tech is here !
+Name have changed ! juline.tech is now the name of mirrors !
 
 Available languages :
 
