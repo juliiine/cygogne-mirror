@@ -4,8 +4,8 @@ Name have changed ! Juline.tech is here !
 
 Available languages :
 
-[Français](https://github.com/juliiine/cygogne-mirror/blob/main/README_FR.md)
-[English](https://github.com/juliiine/cygogne-mirror/blob/main/README.md)
+[Français](https://github.com/juliiine/cygogne-mirror/blob/main/README_FR.md) | [English](https://github.com/juliiine/cygogne-mirror/blob/main/README.md)
+
 
 This repo describes how to set my mirrors for Arch or Gentoo, and also show how to create a mirror for these.
 Specifics things to know about my server where is the mirrors : 
