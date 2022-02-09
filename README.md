@@ -11,7 +11,7 @@ This repo describes how to set my mirrors for Arch or Gentoo, and also show how 
 Specifics things to know about my server where is the mirrors : 
 
 - 1Gbits bandwith fiber edition.
-- 2 Tb stockage allowed (actually uses only 480Gb).
+- 2 Tb stockage allowed (actually uses only 720Gb).
 - 2 CPU / 1G RAM (it's sooo fine).
 - Refresh every 4 hour for Gentoo and each hour for Arch.
 - HTTPS only (Rsync todo).
