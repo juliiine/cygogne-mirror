@@ -23,7 +23,7 @@ Caractéristiques principales de l'infrastrcture gérant les miroirs :
  N'hésitez-pas à me dire si vous utilisez mon miroir, afin que je puisse l'améliorer en fonction de l'usage que vous en faites.
  Vous pouvez aussi modifier le fichier `readme.md`, m'aider à traduire le projet ou me suggérer des améliorations.
 
-## Miroirs disponibles actuellement 
+## Miroirs et procédures disponibles actuellement 
 
 [Arch](https://github.com/juliiine/cygogne-mirror/blob/main/Arch/README.md) | [Gentoo](https://github.com/juliiine/cygogne-mirror/blob/main/Gentoo/README.md)
 
