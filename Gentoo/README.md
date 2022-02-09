@@ -1,4 +1,4 @@
-# Cygogne Gentoo Mirror
+# Juline's Gentoo Mirror
 
 Available languages :
 

@@ -1,4 +1,4 @@
-# Miroir Gentoo Cygogne
+# Miroir Gentoo Juline
 
 Langues disponibles : 
 
