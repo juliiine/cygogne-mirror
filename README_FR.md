@@ -1,6 +1,6 @@
 # Juline Mirrors Infrastructure
 
-Le nom a changé ! juline.tech est désormais le nom de domaine dedié au mirroirs !
+Le nom a changé ! juline.tech est désormais le nom de domaine dédié au mirroirs !
 
 Available languages :
 
