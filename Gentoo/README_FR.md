@@ -6,7 +6,7 @@ Langues disponibles :
 [English](https://github.com/juliiine/cygogne-mirror/blob/main/README.md)
 
 Ce guide décrit comment utiliser mon miroir sur votre système Gentoo, et vous explique aussi comment en créer un.
-Caractéristiques principales de mon miroir: 
+Caractéristiques principales de ce miroir: 
 
 - Liaison fibrée 1 Go.
 - 2 To de stockage dediée (actuellement seul 480Go sont pris).
@@ -16,7 +16,6 @@ Caractéristiques principales de mon miroir:
 - Je ne détient aucun log, je m'en fout de ce que vous installez.
 - Tourne sous Debian 11.
 - 100% Français et Weeb friendly (pas une si bonne nouvelle).
-- Cygogne-it est pas si fou comme nom, je sais. 
 
 
  N'hésitez-pas à me dire si vous utilisez mon miroir, afin que je puisse l'améliorer en fonction de l'usage que vous en faites.
@@ -36,9 +35,9 @@ Sinon, il faut l'ajouter, avec une ligne dediée dans le fichier et peu importe 
 GENTOO_MIRRORS="truc"
 ```
 Une fois que vous avez ajouté la ligne, on doit changer la valeur de la ligne `GENTOO_MIRRORS` :
-Il faut changer `truc` par `https://cygogne-it.fr`, ce qui doit vous donner ceci :
+Il faut changer `truc` par `https://gentoo.juline.tech`, ce qui doit vous donner ceci :
 ```
-GENTOO_MIRRORS="https://cygogne-it.fr"
+GENTOO_MIRRORS="https://gentoo.juline.tech"
 ```
 Enregistrer le fichier `make.conf`.
 

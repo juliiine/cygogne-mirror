@@ -5,8 +5,8 @@ Available languages :
 [Français](https://github.com/juliiine/cygogne-mirror/blob/main/Gentoo/README_FR.md)
 [English](https://github.com/juliiine/cygogne-mirror/blob/main/Gentoo/README.md)
 
-This repo describes how to set my mirror in your Gentoo system, and also show how to create a mirror.
-Specifics things to know about my mirror : 
+This file describes how to set my mirror in your Gentoo system, and also show how to create a mirror.
+Specifics things to know about this mirror : 
 
 - 1Gbits bandwith fiber edition.
 - 2 Tb stockage allowed (actually uses only 480Gb).
@@ -16,8 +16,6 @@ Specifics things to know about my mirror :
 - No-log policies, I don't care what you emerges.
 - Uses Debian 11.
 - 100% French and Weeb powered (maybe not so cool).
-- Cygogne-it is not a cool name, I already know that. 
-
 
  Please don't hesitate to tell me if you use my mirror, so I can improve it if there is more and more users.
  You can also contribute to modify the `readme.md` file, translate it or make me any feedback and suggestions.
@@ -36,9 +34,9 @@ Otherwise it must be added, the placement does not matter but it must be placed 
 GENTOO_MIRRORS="something"
 ```
 After you have the line required, you can change the value of the `GENTOO_MIRRORS` variable :
-Change `something` to `https://cygogne-it.fr` and you should have this :
+Change `something` to `https://gentoo.juline.tech` and you should have this :
 ```
-GENTOO_MIRRORS="https://cygogne-it.fr"
+GENTOO_MIRRORS="https://gentoo.juline.tech"
 ```
 Save your `make.conf` file and exit.
 
