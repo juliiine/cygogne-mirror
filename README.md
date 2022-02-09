@@ -25,4 +25,4 @@ Specifics things to know about my server where is the mirrors :
 
 ## Mirrors currently available 
 
-[Arch](https://github.com/juliiine/cygogne-mirror/blob/main/Arch/README.md) | [Gentoo](https://github.com/juliiine/cygogne-mirror/blob/main/Gentoo/README.md)
+[/!\ Arch /!\](https://github.com/juliiine/cygogne-mirror/blob/main/Arch/README.md) | [Gentoo](https://github.com/juliiine/cygogne-mirror/blob/main/Gentoo/README.md)
