@@ -1,6 +1,6 @@
 # Juline's Mirrors Infrastructure
 
-Name have changed ! juline.tech is now the name of mirrors !
+rsync is now available !
 
 Available languages :
 
@@ -12,7 +12,8 @@ Current status of infrastructure :
 |:-----------:|:-:|:-:|
 |  Status     | Up | Up |
 | Last Sync   | Not available | Not Available |
-| Total Size  | 211G | 483G |  
+| Total Size  | 211G | 483G |
+| Access with | HTTPS/rsync | HTTPS/rsync |  
 
 This repo describes how to set my mirrors for Arch or Gentoo, and also show how to create a mirror for these.
 Specifics things to know about my server where is the mirrors : 
@@ -21,7 +22,7 @@ Specifics things to know about my server where is the mirrors :
 - 2 Tb stockage allowed (actually uses only 720Gb).
 - 2 CPU / 1G RAM (it's sooo fine).
 - Refresh every 4 hour for Gentoo and each hour for Arch.
-- HTTPS only (Rsync todo).
+- HTTPS and rsync.
 - No-log policies, I don't care what you download.
 - Uses Debian 11 💪🏻.
 - 100% French and Weeb powered (maybe not so cool).

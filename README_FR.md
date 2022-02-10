@@ -1,6 +1,6 @@
 # Juline's Mirrors Infrastructure
 
-Le nom a changé ! juline.tech est désormais le nom de domaine dédié au miroirs !
+rsync est désormais disponible !
 
 Available languages :
 
@@ -12,7 +12,8 @@ Statut actuel de l'infrastructure :
 |:-----------:|:-:|:-:|
 |  Statut     | En ligne | En ligne |
 | Dernière Synchro   | Non disponible | Non disponible |
-| Taille totale  | 211G | 483G |  
+| Taille totale  | 211G | 483G |
+| Accès via | HTTPS/rsync | HTTPS/rsync |  
 
 Ce guide décrit comment utiliser mes miroirs sur votre système Gentoo ou Arch, et vous explique aussi comment en créer un.
 Caractéristiques principales de l'infrastrcture gérant les miroirs : 
@@ -21,7 +22,7 @@ Caractéristiques principales de l'infrastrcture gérant les miroirs :
 - 2 To de stockage dediée (actuellement seul 720Go sont pris).
 - 2 CPU / 1G RAM (C'est large pour cet usage).
 - Syncro toutes les 4 heures piles depuis le serveur miroir maître Gentoo, et toutes les heures pour Arch Linux.
-- Accès via HTTPS (Rsync sera bientôt disponible).
+- Accès via HTTPS et désormais rsync.
 - Je ne détient aucun log, je m'en fout de ce que vous installez.
 - Tourne sous Debian 11 💪🏻.
 - 100% Français et Weeb friendly (pas une si bonne nouvelle).
