@@ -68,7 +68,7 @@ Actually, it takes up to 350Gb to download, so please be patient.
 
 To fetch from a Rsync Tier 1 mirror to your desired directory (List of Tier 1 mirrors: https://archlinux.org/mirrors/tier/1/) :
 ```
-rsync -av <tier 1 mirror supports Rsync> /var/www/html/arch/
+rsync -av rsync://arch.juline.tech/archlinux /var/www/html/arch/
 ```
 Change `/var/www/html/arch/` to the location that you have chosen.
 The `-v` argument can be skipped if you don't want verbose mode.

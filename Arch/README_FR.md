@@ -66,9 +66,9 @@ Lisez le manuel de votre serveur web pour savoir comment l'on configure des `Vir
 Une fois que votre répertoire a été choisi et est accessible via le web, il est temps de télécharger TOUT le nécessaire depuis un serveur Tier 1 qui doit supporter Rsync.
 Actuellement, tout cela pèse près de 350Go, donc soyez patients.
 
-Pour télécharger depuis un serveur Tier 1 (Liste des miroirs Tier 1: https://archlinux.org/mirrors/tier/1/) vers votre répertoire choisi, tapez la commande suivante :
+Pour télécharger depuis un serveur Tier 1 (Liste des miroirs Tier 1: https://archlinux.org/mirrors/tier/1/) vers votre répertoire choisi, tapez la commande suivante avec le mien en example :
 ```
-rsync -av <tier 1 mirror supports Rsync> /var/www/html/arch/
+rsync -av rsync://arch.juline.tech/archlinux /var/www/html/arch/
 ```
 Changer `/var/www/html/arch/` pour correspondre à votre cas.
 L'arguement `-v` à la commande peut être ignoré si vous ne voulez pas le mode verbeux.

@@ -33,7 +33,15 @@ Specifics things to know about my server where is the mirrors :
 
 ## Mirrors and docs currently available 
 
-[Arch](https://github.com/juliiine/cygogne-mirror/blob/main/Arch/README.md) | [Gentoo](https://github.com/juliiine/cygogne-mirror/blob/main/Gentoo/README.md)
+[Arch](https://github.com/juliiine/cygogne-mirror/blob/main/Arch/README.md) :
+
+- HTTPS : https://arch.juline.tech
+- RSYNC : rsync://arch.juline.tech/archlinux
+
+[Gentoo](https://github.com/juliiine/cygogne-mirror/blob/main/Gentoo/README.md) :
+
+- HTTPS : https://gentoo.juline.tech
+- RSYNC : rsync://gentoo.juline.tech/gentoo
 
 ## Our contributors
 
